@@ -19,3 +19,5 @@ Git version
 ```bash
 git --version
 ```
+
+This file is edited in github website to test some conflicts.
