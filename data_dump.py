@@ -21,5 +21,5 @@ if __name__ == "__main__":
     print(json_records[0])
 
     # insert json records to mongoDB
-    # client[DATABASE_NAME][COLLECTION_NAME].insert_many(json_records)
+    client[DATABASE_NAME][COLLECTION_NAME].insert_many(json_records)
 
